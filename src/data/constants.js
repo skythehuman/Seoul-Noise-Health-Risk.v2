@@ -41,5 +41,5 @@ export const CLUSTERS = [
 ];
 
 // Map styling
-export const RISK_COLORS = { Low: '#1a9a5a', Medium: '#d08a15', High: '#cf2e2e' };
-export const RISK_OPACITY = { Low: 0.35, Medium: 0.50, High: 0.65 };
+export const RISK_COLORS = { 'Low Risk': '#1a9a5a', 'Medium Risk': '#d08a15', 'High Risk': '#cf2e2e' };
+export const RISK_OPACITY = { 'Low Risk': 0.35, 'Medium Risk': 0.50, 'High Risk': 0.65 };

@@ -169,9 +169,9 @@ export default function SeoulMap() {
 
       {/* Legend */}
       <div className="legend">
-        <div className="legend-item"><div className="legend-swatch" style={{ background: RISK_COLORS.["Low Risk"] }} /> Low (EBD &lt; 239 &amp; Elderly &lt; 620)</div>
-        <div className="legend-item"><div className="legend-swatch" style={{ background: RISK_COLORS.["Medium Risk"] }} /> Medium (one threshold exceeded)</div>
-        <div className="legend-item"><div className="legend-swatch" style={{ background: RISK_COLORS.["High Risk"] }} /> High (both exceeded)</div>
+        <div className="legend-item"><div className="legend-swatch" style={{ background: RISK_COLORS["Low Risk"] }} /> Low (EBD &lt; 239 &amp; Elderly &lt; 620)</div>
+        <div className="legend-item"><div className="legend-swatch" style={{ background: RISK_COLORS["Medium Risk"] }} /> Medium (one threshold exceeded)</div>
+        <div className="legend-item"><div className="legend-swatch" style={{ background: RISK_COLORS["High Risk"] }} /> High (both exceeded)</div>
       </div>
     </div>
   );

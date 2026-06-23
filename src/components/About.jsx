@@ -87,18 +87,18 @@ export default function About() {
 
         <h3>Data Sources</h3>
         <p style={{ fontSize: '0.82rem', lineHeight: 1.9 }}>
-          Noise exposure (Lden) — Road traffic noise map, Seoul Metropolitan Government (2021)<br />
-          Population &amp; elderly — Census data, 1 km grid (2021)<br />
-          IHD mortality/prevalence — National health statistics (2021)<br />
-          Urban morphology — National spatial data infrastructure (2021)
+          Noise exposure (Lden): Road traffic noise map (NoiseModelling) <br />
+          Population &amp; elderly: Census data, 1 km grid (통계청, 2021)<br />
+          IHD mortality/prevalence: National health statistics (국가데이터처, 2021)<br />
+          Urban morphology: National spatial data (환경부, 국토부, 2021)
         </p>
 
         <h3>References</h3>
         <div className="ref-list">
           <div>WHO (2018). <a href="https://www.who.int/europe/publications/i/item/9789289053563" target="_blank" rel="noopener noreferrer">Environmental Noise Guidelines for the European Region</a></div>
-          <div>Tobollik, M. et al. (2019). <a href="https://doi.org/10.3390/ijerph16071236" target="_blank" rel="noopener noreferrer">Environmental burden of disease from traffic noise. <em>Int. J. Environ. Res. Public Health</em>, 16(7), 1236.</a></div>
-          <div>Rockhill, B. et al. (1998). <a href="https://doi.org/10.2105/AJPH.88.1.15" target="_blank" rel="noopener noreferrer">Use and misuse of population attributable fractions. <em>Am. J. Public Health</em>, 88(1), 15–19.</a></div>
-          <div>Im, H. et al. (2023). Disability Weight for IHD (DW = 0.521).</div>
+          <div>Tobollik, M. et al. (2019). Burden of disease due to traffic noise in Germany. International journal of environmental research and public health, 16(13), 2304.</div>
+          <div>Rockhill, B. et al. (1998). Use and misuse of population attributable fractions. American journal of public health, 88(1), 15–19.</div>
+          <div>Im, H. et al. (2023). Updating Korean disability weights for causes of disease: adopting an add-on study method. Journal of Preventive Medicine and Public Health, 56(4), 291.</div>
           <div>EU Environmental Noise Directive (END). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32002L0049" target="_blank" rel="noopener noreferrer">Directive 2002/49/EC</a></div>
         </div>
       </div>

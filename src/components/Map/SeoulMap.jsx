@@ -72,9 +72,9 @@ export default function SeoulMap() {
     const f = grid.features;
     return {
       total: f.length,
-      high: f.filter((x) => x.properties.risk_level === 'High').length,
-      med: f.filter((x) => x.properties.risk_level === 'Medium').length,
-      low: f.filter((x) => x.properties.risk_level === 'Low').length,
+      high: f.filter((x) => x.properties.risk_level === 'High Risk').length,
+      med: f.filter((x) => x.properties.risk_level === 'Medium Risk').length,
+      low: f.filter((x) => x.properties.risk_level === 'Low Risk').length,
     };
   }, [grid]);
 

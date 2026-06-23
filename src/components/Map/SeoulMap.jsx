@@ -136,7 +136,7 @@ export default function SeoulMap() {
         <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap' }}>
           <div className="filter-row">
             <span className="filter-label">Risk:</span>
-            {['All', 'High', 'Medium', 'Low'].map((v) => (
+            {['All', 'High Risk', 'Medium Risk', 'Low Risk'].map((v) => (
               <button key={v} className={`chip ${riskFilter === v ? 'active' : ''}`}
                 onClick={() => setRiskFilter(v)}>{v}</button>
             ))}

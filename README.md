@@ -1,5 +1,5 @@
 # Seoul-Noise-Health-Risk.v2
-Interactive web dashboard that visualizes traffic noise-attributed IHD health risks across Seoul using the Environmental Burden of Disease (EBD) framework. This work implements the outcomes from doctoral dissertation research.
+Interactive web dashboard that visualizes traffic noise-attributed IHD health risks across Seoul using the Environmental Burden of Disease (EBD) framework. This work implements the outcomes from my doctoral dissertation.
 
 **[Go to Dashboard](https://skythehuman.github.io/Seoul-Noise-Health-Risk.v2)**
 
@@ -50,7 +50,7 @@ Risk classification: High (65+PO ≥ 620 AND EBD ≥ 239), Medium (either), Low 
 
 ## References
 
-- Lee, H. (2026). EBD-based Health Risk Assessment with Explainable AI. In Ph.D. Dissertation.
+- Lee, H. (2026). *EBD-based Health Risk Assessment with Explainable AI*. In Ph.D. Dissertation.
 - WHO (2018). [Environmental Noise Guidelines for the European Region](https://www.who.int/europe/publications/i/item/9789289053563)
 - Tobollik, M. et al. (2019). Burden of disease due to traffic noise in Germany. *International journal of environmental research and public health*, 16(13), 2304.
 - Rockhill, B. et al. (1998). Use and misuse of population attributable fractions. *American journal of public health*, 88(1), 15–19.

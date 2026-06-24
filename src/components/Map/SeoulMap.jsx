@@ -44,7 +44,7 @@ export default function SeoulMap() {
   const [isDemo, setIsDemo] = useState(false);
   const [loading, setLoading] = useState(true);
   const [riskFilter, setRiskFilter] = useState('All');
-  const [clusterFilter, setClusterFilter] = useState('All');
+  /*const [clusterFilter, setClusterFilter] = useState('All');*/
 
   useEffect(() => {
     (async () => {
@@ -61,7 +61,7 @@ export default function SeoulMap() {
     const ff = grid.features.filter((f) => {
       const p = f.properties;
       if (riskFilter !== 'All' && p.risk_level !== riskFilter) return false;
-      if (clusterFilter !== 'All' && String(p.cluster_id) !== clusterFilter) return false;
+      if (clusterFilter !== String(p.cluster_id) !== clusterFilter) return false;
       return true;
     });
     return { ...grid, features: ff };
@@ -143,8 +143,6 @@ export default function SeoulMap() {
           </div>
           <div className="filter-row">
             <span className="filter-label">Cluster:</span>
-            <button className={`chip ${clusterFilter === 'All' ? 'active' : ''}`}
-              onClick={() => setClusterFilter('All')}>All</button>
             {CLUSTERS.map((c) => (
               <button key={c.id} className={`chip ${clusterFilter === String(c.id) ? 'active' : ''}`}
                 onClick={() => setClusterFilter(String(c.id))} title={c.desc}>{c.name}</button>

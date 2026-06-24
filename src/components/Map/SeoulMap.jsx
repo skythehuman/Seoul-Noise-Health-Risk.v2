@@ -147,7 +147,7 @@ export default function SeoulMap() {
               onClick={() => setClusterFilter('All')}>All</button>
             {CLUSTERS.map((c) => (
               <button key={c.id} className={`chip ${clusterFilter === String(c.id) ? 'active' : ''}`}
-                onClick={() => setClusterFilter(String(c.id))} title={c.desc}>{c.ko}</button>
+                onClick={() => setClusterFilter(String(c.id))} title={c.desc}>{c.name}</button>
             ))}
           </div>
         </div>

@@ -33,11 +33,11 @@ export const DEFAULTS = {
 
 // K-means clusters (Chapter 4, Section 4.4)
 export const CLUSTERS = [
-  { id: 1, name: 'High-rise mixed-use',             ko: '고층 복합용도',       color: '#6366f1', desc: 'High BH (0.59), low GR (0.10)' },
-  { id: 2, name: 'Rail & traffic-heavy residential', ko: '철도·교통 밀집 주거',  color: '#ef4444', desc: 'Peak traffic exposure, railway noise' },
-  { id: 3, name: 'Green & low-noise residential',    ko: '녹지·저소음 주거',    color: '#22c55e', desc: 'High green space, low noise' },
-  { id: 4, name: 'High-density with construction',   ko: '고밀도 건설지역',     color: '#f59e0b', desc: 'High building density, construction noise' },
-  { id: 5, name: 'Public urban core',                ko: '도심 공공지역',       color: '#3b82f6', desc: 'High traffic volume, siren/signal noise' },
+  { id: 0, name: 'High-rise mixed-use',             ko: '고층 복합용도',       color: '#6366f1', desc: 'High BH (0.59), low GR (0.10)' },
+  { id: 1, name: 'Rail & traffic-heavy residential', ko: '철도·교통 밀집 주거',  color: '#ef4444', desc: 'Peak traffic exposure, railway noise' },
+  { id: 2, name: 'Green & low-noise residential',    ko: '녹지·저소음 주거',    color: '#22c55e', desc: 'High green space, low noise' },
+  { id: 3, name: 'High-density with construction',   ko: '고밀도 건설지역',     color: '#f59e0b', desc: 'High building density, construction noise' },
+  { id: 4, name: 'Public urban core',                ko: '도심 공공지역',       color: '#3b82f6', desc: 'High traffic volume, siren/signal noise' },
 ];
 
 // Map styling

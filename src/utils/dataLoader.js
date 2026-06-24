@@ -57,7 +57,7 @@ export function generateDemoGrid() {
       const deaths = pop * (28.5 / 100000);
       const dalys = deaths * 15.2 + pop * (420 / 100000) * 0.521;
       const ebd = paf * dalys;
-      const cid = Math.floor(rand() * 5) + 1;
+      const cid = Math.floor(rand() * 5);
       const risk = (elderly >= THRESHOLDS.elderly && ebd >= THRESHOLDS.ebd) ? 'High'
                  : (elderly >= THRESHOLDS.elderly || ebd >= THRESHOLDS.ebd) ? 'Medium' : 'Low';
 
@@ -69,10 +69,10 @@ export function generateDemoGrid() {
           EBD: Math.round(ebd * 10) / 10,
           risk_level: risk,
           cluster_id: cid,
-          cluster_name: CLUSTERS[cid - 1].name,
+          cluster_name: CLUSTERS[cid].name,
           population: pop,
           elderly_pop: elderly,
-          dominant_noise: noises[cid - 1],
+          dominant_noise: noises[cid],
         },
         geometry: {
           type: 'Polygon',

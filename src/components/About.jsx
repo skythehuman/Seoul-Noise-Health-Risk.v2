@@ -96,10 +96,10 @@ export default function About() {
         <h3>References</h3>
         <div className="ref-list">
           <div>WHO (2018). <a href="https://www.who.int/europe/publications/i/item/9789289053563" target="_blank" rel="noopener noreferrer">Environmental Noise Guidelines for the European Region</a></div>
+          <div>EU Environmental Noise Directive (END). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32002L0049" target="_blank" rel="noopener noreferrer">Directive 2002/49/EC</a></div>
           <div>Tobollik, M. et al. (2019). Burden of disease due to traffic noise in Germany. International journal of environmental research and public health, 16(13), 2304.</div>
           <div>Rockhill, B. et al. (1998). Use and misuse of population attributable fractions. American journal of public health, 88(1), 15–19.</div>
           <div>Im, H. et al. (2023). Updating Korean disability weights for causes of disease: adopting an add-on study method. Journal of Preventive Medicine and Public Health, 56(4), 291.</div>
-          <div>EU Environmental Noise Directive (END). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32002L0049" target="_blank" rel="noopener noreferrer">Directive 2002/49/EC</a></div>
         </div>
       </div>
     </div>

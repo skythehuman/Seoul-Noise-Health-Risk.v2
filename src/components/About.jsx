@@ -74,7 +74,7 @@ export default function About() {
                   <td style={{ padding: '8px 12px', whiteSpace: 'nowrap' }}>
                     <span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: 2,
                       background: c.color, marginRight: 8, verticalAlign: 'middle' }} />
-                    {c.ko}
+                    {c.name}
                   </td>
                   <td style={{ padding: '8px 12px', color: 'var(--color-text-secondary)' }}>
                     {c.desc}
